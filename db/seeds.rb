@@ -17,7 +17,7 @@ Movie.create(title: "Ocean's Eight", overview: "Debbie Ocean, a criminal masterm
 List.create(name: 'Testing list')
 List.create(name: 'Testing list 2')
 
-Bookmark.new(comment: 'This is a test', list: List.find(List.first.id), movie: Movie.find(Movie.first.id))
+# Bookmark.new(comment: 'This is a test', list: List.find(List.first.id), movie: Movie.find(Movie.first.id))
 
 # This is needed to be understandable #########################3
 
